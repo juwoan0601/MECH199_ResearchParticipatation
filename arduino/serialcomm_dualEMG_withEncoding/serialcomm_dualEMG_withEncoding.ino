@@ -12,7 +12,7 @@ E-mail: han0601@postech.ac.kr
 
 //========== PIN MAP ==========
 #define PIN_SIG1      A0        // sEMG sensor signal pin 1
-#define PIN_SIG2      A1        // sEMG sensor signal pin 2
+#define PIN_SIG2      A1        // sEMG sensor signal pin 2+
 //========== PIN MAP ==========
 
 void setup() {
