@@ -14,14 +14,14 @@ E-mail: han0601@postech.ac.kr
 //========== PIN MAP ==========
 
 void setup() {
-  Serial.begin(4800);           // start serial communication
+  Serial.begin(115200);           // start serial communication
 }
 
 void loop() {
-  int sEMG_RAW = analogRead(PIN_SIG);   // read sEMG value from sEMG sensor
+  int sEMG_SIG = analogRead(PIN_SIG);   // read sEMG value from sEMG sensor
 
   // print for arduino serial plotter
-  Serial.print(-1023);      // print the lowest value
+  Serial.print(0);      // print the lowest value
   Serial.print(",");        // print separator of valuse
   Serial.print(1023);       // print the highest value
   Serial.print(",");        // print separator of valuse
